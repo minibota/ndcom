@@ -21,6 +21,7 @@
 	<script >
 		document.querySelector('iframe#spotifyFrame').addEventListener('load', function(){
 			setTimeout(function(){
+				document.querySelector('[title="Play"]').click();
 				document.querySelector('[title="Reproducir"]').click();
 			}, 3000);
 		});
