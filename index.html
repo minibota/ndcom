@@ -19,13 +19,13 @@
 		<iframe id="spotifyFrame" style="border-radius:12px" src="https://open.spotify.com/embed/track/0qHUrhdW3woURPXDo0ezcd?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 	</body>
 	<script >
-		document.querySelector('iframe#spotifyFrame').addEventListener('load', function (){
+		document.querySelector('iframe#spotifyFrame').addEventListener('load', function(){
 			setTimeout(function(){
 				if (newState == -1) {
 				    document.querySelector('[title="Reproducir"]').click();
 				}
 			    }, 3000);
-		)};
+		});
 	</script>
 
 </html>
